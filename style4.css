@@ -1,0 +1,249 @@
+/* @media screen and (min-width:360px) and (max-width:768px) { */
+    .header{
+        width: 100%;
+        height: 70px;
+        background-color: cornflowerblue;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    
+    .header h1{
+        padding: 10px;
+    
+    }
+    
+    
+    
+    .mypro{
+        width: 90%;
+        height: 450px;
+        background-color: rgb(255, 255, 255);
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    .right{
+        width: 65%;
+        height: 500px;
+        background-color: rgb(236, 233, 236);
+        float: right;
+        margin-bottom: 5px;
+    }
+    
+    .info{
+        width: 95%;
+        height: 450px;
+        background-color: rgb(252, 253, 253);
+        margin-top: 15px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    span{
+        font-weight: bold;
+        color:crimson ;
+    }
+    
+    .footer{
+        width: 100%;
+        height: 50px;
+        background-color: cornflowerblue;
+        clear: both;
+        text-align: center;
+    }
+    
+    .footer h3{
+        padding: 10px;
+    }
+    
+    img{
+        box-decoration-break: clone;
+    }
+    
+    .about{
+        margin-top: 5 0px;
+    }
+    
+    #hh{
+        margin-top: 4px;
+        text-align: start;
+    }
+    
+    
+    .left{
+    width: 35%;
+    height: 500px;
+    background-color: rgb(252, 248, 249);
+    float: left;
+    margin-bottom: 5px;
+    }
+    
+    .navbar{
+        width: 1200px;
+        height: 75px;
+        margin: auto;
+    }
+    .icon{ 
+        width: 200px;
+        float: left;
+        height: 70px;
+    }
+    .logo{
+        color: #ff7200;
+        font-size: 20px;
+        font-family: Arial;
+        padding-left: 20px;
+        float: left;
+    } 
+    
+    .menu{
+        width: 400px;
+        float: left;
+        height: 70px;
+    }
+    
+    ul{
+        float: left;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    ul li{
+        list-style: none;
+        margin-left:70px;
+        margin-top: 17px;
+        font-size: 14px;
+    
+    
+    }
+    ul li a{
+        text-decoration: none;
+        color:blue;
+        font-family: Arial;
+        font-weight: bold;
+        transition: o.5s ease-in-out;
+    }
+    
+    ul li a:hover{
+        color: #ff7200;
+    }
+    .search{
+        width: 330px;
+        float: left;
+        margin-left: 270px;
+    }
+    .srch{
+        font-family: 'Times New Roman';
+        width: 200px;
+        height: 40px;
+        background: transparent;
+        border: 1px solid #ff7200;
+        margin-top: 13px;
+        color: #fff;
+        border-right: none;
+        font-size: 16px;
+        float: left;
+        padding:10px ;
+        border-bottom-left-radius: 5px;
+        border-top-left-radius: 5px;
+    
+    }
+    
+    .content{
+        width: 1200px;
+        height: auto;
+        color:white;
+        margin: auto;
+        position: relative;
+    }
+    .btn{
+        width: 100px;
+        height: 40px;
+        background:#ff7200;
+        border: 2px solid #ff7200;
+        margin-top: 13px;
+        color: #fff;
+        font-size: 15px;
+       border-bottom-right-radius: 5px;
+       border-bottom-right-radius: 5px;
+       
+    
+    
+    }
+    
+    
+    .btn:focus{
+        outline: none;
+    }
+    .srch:focus{
+        outline: none;
+    }
+    
+    iframe{
+        width: 100%;
+        height: 470px;
+    }
+
+
+    @media screen and (min-width:360px) and (max-width:768px){
+        body{background-color: rgb(131, 129, 129); }
+    
+        .header{
+            width: 100%;
+            font-size: 10px;
+            padding: 5px;
+        }
+    
+        .header h1{
+            padding: 10px;
+        
+        }
+        
+        
+    
+    
+        .logo{
+            font-size: 10px;
+            color: #ff7200;
+            font-size: 10px;
+            font-family: Arial;
+            
+            
+        }
+        .mypro h2{
+            font-size: 11px;
+            margin-top: 5px;
+        }
+
+       .mypro form{
+            width: 100%;
+            padding: left;
+            padding-right: 5px;
+        }
+
+        .mypro form,label{
+            font-size: 10px;
+            padding-right: 30px;
+        }
+
+        .info {
+            padding-left:20px ;
+
+
+        }
+        .info iframe{
+            width: 100%;
+            padding-right: 20px;
+        }
+
+        .header{
+            width: 100%;
+            font-size: 12px;
+            padding: 5px;
+        }
+    
+
+
+        
+    }
